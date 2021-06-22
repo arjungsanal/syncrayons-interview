@@ -1,0 +1,25 @@
+.page-location{
+    margin-top: 1rem;
+    .location-text{
+        @include media-breakpoint-down(md){
+         padding-left: 1rem;
+        }
+        @include media-breakpoint-down(lg){
+            padding-left: 1rem;
+           }
+        width: 100%;
+        height: 2rem;
+        padding-left: 5rem;
+        background-color: $red-100;
+       padding-top: 0.4%;
+       .path-text{
+            
+           a{
+               color: $gray-700;
+               font-size: 0.8rem;
+               text-decoration: none;
+               padding: 0 6px;
+           }
+       }
+    }
+}

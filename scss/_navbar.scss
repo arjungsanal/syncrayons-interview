@@ -1,0 +1,30 @@
+
+.nav-bar{
+    
+    .nav-center{  
+        @include media-breakpoint-down(lg)
+        {
+         margin-top: 3rem;
+        }
+        @include media-breakpoint-down(md){
+         margin-top: 1rem;
+    
+         text-align: center;
+h2{
+    font-size: 2.5rem;
+}
+        }
+     margin-top: 2rem;
+    }
+    .nav-right{
+        @include media-breakpoint-down(md){
+            text-align: center;
+        }
+    }
+    .nav-left{
+        @include media-breakpoint-down(md){
+            margin-top: 10px;
+           text-align: center;
+        }
+    }
+}

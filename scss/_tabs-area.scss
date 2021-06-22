@@ -1,0 +1,15 @@
+.tabs-area{
+    ul{
+        a{
+            color: $black;
+            &:hover{
+                color: $gray-600;
+            }
+
+            &:visited{
+                color: $black;
+            }
+        }
+        }
+        
+}
